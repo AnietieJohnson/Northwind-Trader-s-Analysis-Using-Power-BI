@@ -11,4 +11,4 @@ The data source used for this analysis is the Northwind Traders' dataset, which 
 6. **Shippers:** containing information about **_shipperID_**,	**_companyName_**.
 7. **Products:** containing information about **_productID_**,	**_productName_**,	**_quantityPerUnit_**,	**_unitPrice_**,	**_discontinued_** **_categoryID_**.
 ## Dashboard
-
+![](https://github.com/AnietieJohnson/Northwind-Trader-s-Analysis-Using-PowerBi/blob/main/Dashboard.png)
