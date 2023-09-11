@@ -65,4 +65,15 @@ The Bar chart shows the sales generated from each product category, helping iden
 ### 4. Sales Generated Each Year
 The Line visual presents a year-wise breakdown of sales, allowing for the analysis of sales trends over time.
 ### 5. Customer's Shipping Preference
-This Donut chart provides insights into the shipping preferences of customers.
+The Donut chart provides insights into the shipping preferences of customers.
+## Model
+![](https://github.com/AnietieJohnson/Northwind-Trader-s-Analysis-Using-PowerBi/blob/main/Model.png)
+
+## Conclusion
+This Power BI dashboard offers valuable insights into the Northwind Traders' dataset, enabling us to analyze customer demographics, sales trends, shipping preferences, and more. It provides a user-friendly interface for exploring and understanding the data, supporting data-driven decision-making and business strategies.
+
+
+
+
+
+
