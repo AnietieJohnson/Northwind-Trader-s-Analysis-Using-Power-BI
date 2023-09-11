@@ -32,7 +32,7 @@ In trying to make meaning out of the datasets, I used the left outer Join to
 ## Dashboard
 ![](https://github.com/AnietieJohnson/Northwind-Trader-s-Analysis-Using-PowerBi/blob/main/Dashboard.png)
 
-Displayed in card visuals on the dashboard are:
+## Displayed in card visuals on the dashboard are:
 ### 1. Total Number of Customers
 This calculates the total number of unique customers in the dataset, using the aggregate function **SUM**.
 ### 2. Distinct Number of Customers That Made Purchases through the Years
