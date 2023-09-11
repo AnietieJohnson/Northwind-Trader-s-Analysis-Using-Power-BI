@@ -52,3 +52,12 @@ This count the number of unique products available in the store, using the aggre
 This count the number of unique product categories available in the store, using the aggregate function **COUNT** 
 ### 8. Average Freight
 This calculates the average freight for all orders, using the aggregate function **Average**
+Visuals
+1. Top Ten Customers by Sales
+This visual displays the top ten customers by sales, representing them with their company names.
+2. Sales Made from Each Product Category
+This visual shows the sales generated from each product category, helping identify the most profitable categories.
+3. Sales Generated Each Year
+This visual presents a year-wise breakdown of sales, allowing for the analysis of sales trends over time.
+4. Customer's Shipping Preference
+This visual provides insights into the shipping preferences of customers, helping identify whether they prefer standard or expedited shipping options.
