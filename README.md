@@ -54,18 +54,18 @@ This count the number of unique product categories available in the store, using
 This calculates the average freight for all orders, using the aggregate function **Average**
 ## Charts and Table Visuals
 ### 1. Top Ten Customers by Sales
-The table visual displays the top ten customers by sales, representing them with their company names.
+The **_Table visual_** displays the top ten customers by sales, representing them with their company names.
 - I created a new column
 - wrote an expression to generate sales before creating the visual
 > Sales = 'Table with all order info'[UnitPrice] * 'Table with all order info'[Quantity]
 - I used the Filter Pane
 - Editted for Top N using the Company name column
 ### 3. Sales Made from Each Product Category
-The Bar chart shows the sales generated from each product category, helping identify the most profitable categories.
+The **_Bar chart_** shows the sales generated from each product category, helping identify the most profitable categories.
 ### 4. Sales Generated Each Year
-The Line visual presents a year-wise breakdown of sales, allowing for the analysis of sales trends over time.
+The **_Line visual_** presents a year-wise breakdown of sales, allowing for the analysis of sales trends over time.
 ### 5. Customer's Shipping Preference
-The Donut chart provides insights into the shipping preferences of customers.
+The **_Donut chart_** provides insights into the shipping preferences of customers.
 ## Model
 ![](https://github.com/AnietieJohnson/Northwind-Trader-s-Analysis-Using-PowerBi/blob/main/Model.png)
 
