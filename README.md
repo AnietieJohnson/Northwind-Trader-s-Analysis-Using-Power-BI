@@ -60,17 +60,23 @@ The **_Table visual_** displays the top ten customers by sales, representing the
 > Sales = 'Table with all order info'[UnitPrice] * 'Table with all order info'[Quantity]
 - I used the Filter Pane
 - Editted for Top N using the Company name column
-### 3. Sales Made from Each Product Category
+### 2. Sales Made from Each Product Category
 The **_Bar chart_** shows the sales generated from each product category, helping identify the most profitable categories.
-### 4. Sales Generated Each Year
+### 3. Sales Generated Each Year
 The **_Line visual_** presents a year-wise breakdown of sales, allowing for the analysis of sales trends over time.
-### 5. Customer's Shipping Preference
+### 4. Customer's Shipping Preference
 The **_Donut chart_** provides insights into the shipping preferences of customers.
 ## Model
 ![](https://github.com/AnietieJohnson/Northwind-Trader-s-Analysis-Using-PowerBi/blob/main/Model.png)
 
 ## Conclusion
 This Power BI dashboard offers valuable insights into the Northwind Traders' dataset, enabling us to analyze customer demographics, sales trends, shipping preferences, and more. It provides a user-friendly interface for exploring and understanding the data, supporting data-driven decision-making and business strategies.
+## Insights
+- Best Performing Customers Cross Years: By analyzing the top ten customers by Sales and exploring through the years, Quick Stop, Ernst Handel, Save a lot markets are Companies that appeared constantly in top ten from 2013 through to 2015. Also calculating the total customers that ordered showed us there are two customers from the total customers that havent purchased any product within the three years.
+- Best Performing Product: By exploring sales made from each Product Category we find that the Highest sales id generated from sales of Beverages and the lowest from sales of
+Grains and cereals.
+- Sales Analysis Across the year: Peak sales generated for Northwind was in 2014, with a total sales of 649,038.81 after which sales fell by 28 percent as at 2015.
+- Shipping Preference: The pie chart showed United Package as customers most preferred shipping company with 40 percent of total customer choosing them for shipment. while Federal shipping and speedy express each have 30% .
 
 
 
