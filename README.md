@@ -44,11 +44,11 @@ This counts the number of unique countries covered in the dataset, using the agg
 ### 5. Average Processing Interval for Shipment
 This calculates the average processing interval (in days) for shipments,using the aggregate function **Average**
 - I created a a New column
-- With **DATEDIFF** as function, I calculted the date difference between order date and shipment date
-- I named the column Processing interval.
+- With **DATEDIFF** as function, I calculated the date difference between order date and shipment date
+> Processing interval = DATEDIFF('Table with all order info'[OrderDate],'Table with all order info'[ShippedDate],DAY) 
 ### 6. Products in Store  Product Categories
-This count the number of unique products available in the store.
+This count the number of unique products available in the store, using the aggregate function **COUNT**
 ### 7. Product Categories
-This count the number of unique product categories available in the store.
+This count the number of unique product categories available in the store, using the aggregate function **COUNT** 
 ### 8. Average Freight
-This calculates the average freight for all orders.
+This calculates the average freight for all orders, using the aggregate function **Average**
