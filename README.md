@@ -57,7 +57,7 @@ This calculates the average freight for all orders, using the aggregate function
 ## Charts and Table Visuals
 The dashboard also includes insightful visualizations:
 ### 1. Top Ten Customers by Sales
-The **_Table visual_** displays the top ten customers by sales, representing them with their company names.
+The **_Table visual_** displays the top ten customers by *SUM of sales*, representing them with their company names.
 - I created a new column
 - wrote an expression to generate sales before creating the visual
 > Sales = 'Table with all order info'[UnitPrice] * 'Table with all order info'[Quantity]
