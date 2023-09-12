@@ -29,28 +29,29 @@ In trying to make meaning out of the datasets, I used the left outer Join to
 - Then I merged and Orders and Order details dataset using **_OrderID_** -: Table 2
 - I merged Table 2 and Shippers dataset on **_ShippersID_**-: Table 3
 - Then I joined all tables and removed columns that were duplicates or not important to my analysis
+- Named it Table with all order Info
 ## Dashboard
 ![](https://github.com/AnietieJohnson/Northwind-Trader-s-Analysis-Using-PowerBi/blob/main/Dashboard.png)
 
 ## Key Metrics
 The above Power BI dashboard presents essential metrics in card visuals, including:
 ### 1. Total Number of Customers
-This calculates the total number of unique customers in the dataset, using the aggregate function **SUM**.
+This calculates the total number of unique customers in the dataset, using the aggregate function **COUNT(DISTINCT)** from Customer Table.
 ### 2. Distinct Number of Customers That Made Purchases through the Years
-This calculates the distinct count of customers who have made purchases in multiple years, using the aggregate function **COUNT**.
+This calculates the distinct count of customers who have made purchases in multiple years, using the aggregate function **COUNT(DISTINCT)** from Orders Table.
 ### 3. Total Orders Across the Years
-This calculates the total number of orders placed across all years i.e from 2013 to 2015, Using the aggregate function **SUM**.
+This calculates the total number of distinct orders placed by customers across the three years i.e from 2013 to 2015, Using the aggregate function **COUNT(DISTINCT)**.
 ### 4. Countries Covered
-This counts the number of unique countries covered in the dataset, using the aggregate function **COUNT**
+This counts the number of unique countries covered in the dataset, using the aggregate function **COUNT(DISTINCT)**
 ### 5. Average Processing Interval for Shipment
 This calculates the average processing interval (in days) for shipments,using the aggregate function **Average**
 - I created a New column
 - With **DATEDIFF** as function, I calculated the date difference between order date and shipment date
 > Processing interval = DATEDIFF('Table with all order info'[OrderDate],'Table with all order info'[ShippedDate],DAY) 
 ### 6. Products in Store  
-This count the number of unique products available in the store, using the aggregate function **COUNT**
+This count the number of unique products available in the store, using the aggregate function **COUNT(DISTINCT)**
 ### 7. Product Categories
-This count the number of unique product categories available in the store, using the aggregate function **COUNT** 
+This count the number of unique product categories available in the store, using the aggregate function **COUNT(DISTINCT)** 
 ### 8. Average Freight
 This calculates the average freight for all orders, using the aggregate function **Average**
 ## Charts and Table Visuals
@@ -63,11 +64,11 @@ The **_Table visual_** displays the top ten customers by sales, representing the
 - I used the Filter Pane
 - Editted for Top N using the Company name column
 ### 2. Sales Made from Each Product Category
-The **_Bar chart_** shows the sales generated from each product category, helping identify the most profitable categories.
+The **_Bar chart_** shows the *SUM of sales* generated from each product category, helping identify the most profitable categories.
 ### 3. Sales Generated Each Year
-The **_Line visual_** presents a year-wise breakdown of sales, allowing for the analysis of sales trends over time.
+The **_Line visual_** presents a year-wise breakdown of *SUM of sales*, allowing for the analysis of sales trends over time.
 ### 4. Customer's Shipping Preference
-The **_Donut chart_** provides insights into the shipping preferences of customers.
+The **_Donut chart_** provides insights into the shipping preferences of customers i.e *COUNT of customers* by shipping company.
 ## Model
 ![](https://github.com/AnietieJohnson/Northwind-Trader-s-Analysis-Using-PowerBi/blob/main/Model.png)
 
