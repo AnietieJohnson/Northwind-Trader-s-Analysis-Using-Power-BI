@@ -11,7 +11,7 @@ The data source used for this analysis is the Northwind Traders' dataset, compri
 6. **Shippers:** containing information about **_shipperID_**,	**_companyName_**.
 7. **Products:** containing information about **_productID_**,	**_productName_**,	**_quantityPerUnit_**,	**_unitPrice_**,	**_discontinued_** **_categoryID_**.
 ## Data Inspection
-- Inspected the 'Employee.csv', 'Salary.csv', and 'Department.csv' datasets.
+- Inspected the tables contained in the Northwind datasets.
 - Identified columns, data types, and potential issues.
 ## Data Cleaning
 1. Loaded each file using **Get data Tab**, I chose _text/csv_
