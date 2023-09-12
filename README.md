@@ -47,7 +47,7 @@ This calculates the average processing interval (in days) for shipments,using th
 - I created a a New column
 - With **DATEDIFF** as function, I calculated the date difference between order date and shipment date
 > Processing interval = DATEDIFF('Table with all order info'[OrderDate],'Table with all order info'[ShippedDate],DAY) 
-### 6. Products in Store  Product Categories
+### 6. Products in Store  
 This count the number of unique products available in the store, using the aggregate function **COUNT**
 ### 7. Product Categories
 This count the number of unique product categories available in the store, using the aggregate function **COUNT** 
