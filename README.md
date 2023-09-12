@@ -37,14 +37,14 @@ The above Power BI dashboard presents essential metrics in card visuals, includi
 ### 1. Total Number of Customers
 This calculates the total number of unique customers in the dataset, using the aggregate function **SUM**.
 ### 2. Distinct Number of Customers That Made Purchases through the Years
-This calculates the count of customers who have made purchases in multiple years, using the aggregate function **COUNT**.
+This calculates the distinct count of customers who have made purchases in multiple years, using the aggregate function **COUNT**.
 ### 3. Total Orders Across the Years
 This calculates the total number of orders placed across all years i.e from 2013 to 2015, Using the aggregate function **SUM**.
 ### 4. Countries Covered
 This counts the number of unique countries covered in the dataset, using the aggregate function **COUNT**
 ### 5. Average Processing Interval for Shipment
 This calculates the average processing interval (in days) for shipments,using the aggregate function **Average**
-- I created a a New column
+- I created a New column
 - With **DATEDIFF** as function, I calculated the date difference between order date and shipment date
 > Processing interval = DATEDIFF('Table with all order info'[OrderDate],'Table with all order info'[ShippedDate],DAY) 
 ### 6. Products in Store  
