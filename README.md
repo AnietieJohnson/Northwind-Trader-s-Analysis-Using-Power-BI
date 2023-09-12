@@ -2,7 +2,7 @@
 ## Introduction
 This documentation provides a detailed overview of a Power BI dashboard created to analyze the Northwind Traders' dataset. The dashboard contains measures and visuals designed to answer specific questions related to the dataset.
 ## Data Source
-The data source used for this analysis is the Northwind Traders' dataset, which containsthe following tables:
+The data source used for this analysis is the Northwind Traders' dataset, comprising the following tables:
 1. **Orders:** containing information about **_orderID_**,	**_customerID_**,	**_employeeID_**,	**_orderDate_**, **_requiredDate_**,	**_shippedDate_**,	**_shipperID_**,	**_freight_**.
 2. **Order details:** containing information about **_orderID_**,	**_productID_**,	**_unitPrice_**,	**_quantity_**,	**_discount_**.
 3. **Employees:** containing information about **_employeeID_**,	**_employeeName_**,	**_title_**,	**_city_**,	**_country_**,	**_reportsTo_**.
