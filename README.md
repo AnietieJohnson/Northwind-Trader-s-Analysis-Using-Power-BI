@@ -32,7 +32,8 @@ In trying to make meaning out of the datasets, I used the left outer Join to
 ## Dashboard
 ![](https://github.com/AnietieJohnson/Northwind-Trader-s-Analysis-Using-PowerBi/blob/main/Dashboard.png)
 
-## Displayed in card visuals on the dashboard are:
+## Key Metrics
+The Power BI dashboard presents essential metrics in card visuals, including:
 ### 1. Total Number of Customers
 This calculates the total number of unique customers in the dataset, using the aggregate function **SUM**.
 ### 2. Distinct Number of Customers That Made Purchases through the Years
@@ -53,6 +54,7 @@ This count the number of unique product categories available in the store, using
 ### 8. Average Freight
 This calculates the average freight for all orders, using the aggregate function **Average**
 ## Charts and Table Visuals
+The dashboard also includes insightful visualizations:
 ### 1. Top Ten Customers by Sales
 The **_Table visual_** displays the top ten customers by sales, representing them with their company names.
 - I created a new column
