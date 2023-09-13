@@ -14,8 +14,8 @@ The data source used for this analysis is the Northwind Traders' dataset, compri
 - Inspected the tables contained in the Northwind datasets.
 - Identified columns, data types, and potential issues.
 ## Data Cleaning
-1. Loaded each file using **Get data Tab**, I chose _text/csv_ -: "Based on entire dataset" 
-2. Loaded the file into PowerQery Editor for cleaning using Data type detection
+1. Using **Get data Tab**, I chose _text/csv_ and Loaded each file using Data type detection,-: "Based on entire dataset".
+2. Loaded the file into PowerQery Editor for cleaning using 
 - Corrected data types for each column
 - Renamed column headings for clarity and consistency
 - Checked for missing values, duplicates and Nulls
